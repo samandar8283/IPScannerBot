@@ -1,0 +1,40 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-06-10 00:44 +05
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 00:44
+Completed NSE at 00:44, 0.00s elapsed
+Initiating NSE at 00:44
+Completed NSE at 00:44, 0.00s elapsed
+Initiating NSE at 00:44
+Completed NSE at 00:44, 0.00s elapsed
+Initiating Ping Scan at 00:44
+Scanning 1 (0.0.0.1) [2 ports]
+Completed Ping Scan at 00:44, 0.00s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 00:44
+Completed Parallel DNS resolution of 1 host. at 00:44, 0.00s elapsed
+Initiating Connect Scan at 00:44
+Scanning 1 (0.0.0.1) [1000 ports]
+Completed Connect Scan at 00:44, 0.16s elapsed (1000 total ports)
+Initiating Service scan at 00:44
+NSE: Script scanning 0.0.0.1.
+Initiating NSE at 00:44
+Completed NSE at 00:44, 5.01s elapsed
+Initiating NSE at 00:44
+Completed NSE at 00:44, 0.00s elapsed
+Initiating NSE at 00:44
+Completed NSE at 00:44, 0.00s elapsed
+Nmap scan report for 1 (0.0.0.1)
+Host is up (0.0039s latency).
+All 1000 scanned ports on 1 (0.0.0.1) are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+NSE: Script Post-scanning.
+Initiating NSE at 00:44
+Completed NSE at 00:44, 0.00s elapsed
+Initiating NSE at 00:44
+Completed NSE at 00:44, 0.00s elapsed
+Initiating NSE at 00:44
+Completed NSE at 00:44, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 5.49 seconds

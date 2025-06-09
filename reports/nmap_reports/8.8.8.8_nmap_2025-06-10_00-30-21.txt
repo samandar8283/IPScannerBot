@@ -1,0 +1,46 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-06-10 00:29 +05
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.068s latency).
+
+PORT    STATE    SERVICE   VERSION
+20/tcp  filtered ftp-data
+21/tcp  filtered ftp
+80/tcp  filtered http
+443/tcp open     ssl/https HTTP server (unknown)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.94SVN%T=SSL%I=7%D=6/10%Time=68473614%P=x86_64-pc-linux-
+SF:gnu%r(GetRequest,23A,"HTTP/1\.0\x20302\x20Found\r\nX-Content-Type-Optio
+SF:ns:\x20nosniff\r\nAccess-Control-Allow-Origin:\x20\*\r\nLocation:\x20ht
+SF:tps://dns\.google/\r\nDate:\x20Mon,\x2009\x20Jun\x202025\x2019:29:20\x2
+SF:0GMT\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nServer:\x20HTTP
+SF:\x20server\x20\(unknown\)\r\nContent-Length:\x20216\r\nX-XSS-Protection
+SF::\x200\r\nX-Frame-Options:\x20SAMEORIGIN\r\nAlt-Svc:\x20h3=\":443\";\x2
+SF:0ma=2592000,h3-29=\":443\";\x20ma=2592000\r\n\r\n<HTML><HEAD><meta\x20h
+SF:ttp-equiv=\"content-type\"\x20content=\"text/html;charset=utf-8\">\n<TI
+SF:TLE>302\x20Moved</TITLE></HEAD><BODY>\n<H1>302\x20Moved</H1>\nThe\x20do
+SF:cument\x20has\x20moved\n<A\x20HREF=\"https://dns\.google/\">here</A>\.\
+SF:r\n</BODY></HTML>\r\n")%r(HTTPOptions,21A,"HTTP/1\.0\x20302\x20Found\r\
+SF:nX-Content-Type-Options:\x20nosniff\r\nLocation:\x20https://dns\.google
+SF:/\r\nDate:\x20Mon,\x2009\x20Jun\x202025\x2019:29:21\x20GMT\r\nContent-T
+SF:ype:\x20text/html;\x20charset=UTF-8\r\nServer:\x20HTTP\x20server\x20\(u
+SF:nknown\)\r\nContent-Length:\x20216\r\nX-XSS-Protection:\x200\r\nX-Frame
+SF:-Options:\x20SAMEORIGIN\r\nAlt-Svc:\x20h3=\":443\";\x20ma=2592000,h3-29
+SF:=\":443\";\x20ma=2592000\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"conte
+SF:nt-type\"\x20content=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved<
+SF:/TITLE></HEAD><BODY>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20
+SF:moved\n<A\x20HREF=\"https://dns\.google/\">here</A>\.\r\n</BODY></HTML>
+SF:\r\n")%r(FourOhFourRequest,278,"HTTP/1\.0\x20302\x20Found\r\nX-Content-
+SF:Type-Options:\x20nosniff\r\nAccess-Control-Allow-Origin:\x20\*\r\nLocat
+SF:ion:\x20https://dns\.google/nice%20ports%2C/Trinity\.txt\.bak\r\nDate:\
+SF:x20Mon,\x2009\x20Jun\x202025\x2019:29:21\x20GMT\r\nContent-Type:\x20tex
+SF:t/html;\x20charset=UTF-8\r\nServer:\x20HTTP\x20server\x20\(unknown\)\r\
+SF:nContent-Length:\x20247\r\nX-XSS-Protection:\x200\r\nX-Frame-Options:\x
+SF:20SAMEORIGIN\r\nAlt-Svc:\x20h3=\":443\";\x20ma=2592000,h3-29=\":443\";\
+SF:x20ma=2592000\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x
+SF:20content=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HE
+SF:AD><BODY>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x
+SF:20HREF=\"https://dns\.google/nice%20ports%2C/Trinity\.txt\.bak\">here</
+SF:A>\.\r\n</BODY></HTML>\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 72.19 seconds
