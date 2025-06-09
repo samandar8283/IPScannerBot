@@ -5,9 +5,9 @@ import re
 import sys
 import shlex
 from datetime import datetime
-from scanners.nmap_scanner import run_nmap_scan
-from scanners.sqlmap_scanner import run_sqlmap_scan
-from scanners.nikto_scanner import run_nikto_scan
+from scanner.nmap_scanner import run_nmap_scan
+from scanner.sqlmap_scanner import run_sqlmap_scan
+from scanner.nikto_scanner import run_nikto_scan
 
 def safe_input(prompt: str = "") -> str | None:
     try:
