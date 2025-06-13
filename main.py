@@ -215,7 +215,7 @@ def run():
             extra = sqlmap_param_menu()
             if extra == []:
                 return
-            target = safe_input("\n Skaner qilinadigan URL manzilni kiriting (masalan, https://site.com/page.php?id=1): ").strip()
+            target = safe_input("\n Skaner qilinadigan URL manzilni kiriting (masalan, http://testphp.vulnweb.com/artists.php?artist=1): ").strip()
             result = run_sqlmap_scan(target, extra)
             save_report("sqlmap", target, result)
             print("\n📄 SQLMap skaner natijasi:\n", result)
